@@ -11,7 +11,7 @@ const MealItem = (props) => {
     cartCtx.addItem({
       amount,
       id: props.id,
-      names: props.name,
+      name: props.name,
       price: props.price,
     });
   };
